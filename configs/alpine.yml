@@ -1,0 +1,6 @@
+source: ftp://debian.ethz.ch/alpine
+target: /mirror/alpine
+user: ipmirror
+ignore:
+ - "v*"
+ - "MIRRORS.txt"

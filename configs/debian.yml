@@ -1,0 +1,2 @@
+source: rsync://debian.ethz.ch/debian
+target: /mirror/debian
