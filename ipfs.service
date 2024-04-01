@@ -1,0 +1,9 @@
+[Unit]
+Description=IPTS Daemon Service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/ipfs daemon --enable-pubsub-experiment --enable-namesys-pubsub
+
+[Install]
+WantedBy=multi-user.target
